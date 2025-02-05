@@ -9,7 +9,7 @@ require('dotenv').config()
 // middleware
 app.use(express.json());
 app.use(cors({
-    origin: ['http://localhost:5173','https://book-omega-ten.vercel.app/'],
+    origin: ['https://book-ymgm.onrender.com/api/books'],
     credentials: true
 }))
 
